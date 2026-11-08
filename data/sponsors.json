@@ -1,0 +1,61 @@
+{
+  "sponsors": [
+    {
+      "name": "Matakana Scaffolding Inc.",
+      "website": "https://www.matakanascaff.com/",
+      "logo": "/assets/img/sponsor-matakana.webp",
+      "label": "Long-term sponsor",
+      "quote": "We are pleased to have the continued support from Matakana for 2027. Matakana has been a long term sponsor of the Dragons and has been pivotal in the development and success of the club.",
+      "quote_by": "Richard Marshall, Club Treasurer"
+    },
+    {
+      "name": "A&B Tool Rentals",
+      "website": "https://abtoolrentals.com/",
+      "logo": "/assets/img/sponsor-ab.webp",
+      "label": "2027 sponsor"
+    },
+    {
+      "name": "Richmond Endodontic Centre",
+      "website": "https://www.endodonticcentre.com/",
+      "logo": "/assets/img/sponsor-endodontic.webp",
+      "label": "2027 sponsor"
+    },
+    {
+      "name": "Between 2 Buns",
+      "website": "https://www.between2bunsburgers.ca/",
+      "logo": "/assets/img/sponsor-between-2-buns.webp",
+      "label": "New for 2027"
+    },
+    {
+      "name": "Gurniak Real Estate Group",
+      "website": "https://kevingurniak.com/",
+      "logo": "/assets/img/sponsor-gurniak.webp",
+      "label": "2027 sponsor"
+    },
+    {
+      "name": "Madden Solutions",
+      "website": "http://www.maddensolutions.com/",
+      "logo": "/assets/img/sponsor-madden.webp",
+      "label": "2027 sponsor"
+    },
+    {
+      "name": "Park Drive",
+      "website": "https://www.parkdrive.ca/",
+      "logo": "/assets/img/sponsor-park-drive.webp",
+      "label": "2027 sponsor"
+    },
+    {
+      "name": "Westlynn Bakery",
+      "website": "https://www.westlynnbakery.ca/",
+      "logo": "/assets/img/sponsor-westlynn.webp",
+      "label": "2027 sponsor"
+    },
+    {
+      "name": "ARVO+ Wellness",
+      "website": "https://www.arvowellness.ca/",
+      "logo": "/assets/img/sponsor-arvo.webp",
+      "label": "New for 2027",
+      "strip_class": "arvo"
+    }
+  ]
+}

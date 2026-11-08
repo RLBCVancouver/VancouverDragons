@@ -1,0 +1,44 @@
+{
+  "awards": [
+    {
+      "award": "MVP",
+      "winner": "Hayden Jones",
+      "smaller_text": false
+    },
+    {
+      "award": "Best Forward",
+      "winner": "Brae Hamilton-Currey",
+      "smaller_text": false
+    },
+    {
+      "award": "Best Back",
+      "winner": "Jean-Claude Koorsten",
+      "smaller_text": false
+    },
+    {
+      "award": "Best Newcomer",
+      "winner": "Will Vann",
+      "smaller_text": false
+    },
+    {
+      "award": "Best Clubman",
+      "winner": "Gregory Crowe",
+      "smaller_text": false
+    },
+    {
+      "award": "Coaches Award",
+      "winner": "Matthew Riley",
+      "smaller_text": false
+    },
+    {
+      "award": "Reserve Grade MVP",
+      "winner": "Kevin O'Connell",
+      "smaller_text": false
+    },
+    {
+      "award": "Honourable mention glass",
+      "winner": "Luka Bradley, Anthony Hazelman and Jake Schwartz",
+      "smaller_text": true
+    }
+  ]
+}

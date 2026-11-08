@@ -1,0 +1,19 @@
+{
+  "people": [
+    {
+      "name": "Josh Knight",
+      "role": "President",
+      "email": "president@vancouverdragons.ca"
+    },
+    {
+      "name": "Gregory Crowe",
+      "role": "Vice President",
+      "email": ""
+    },
+    {
+      "name": "Richard Marshall",
+      "role": "Treasurer",
+      "email": "richard.marshall@vancouverdragons.ca"
+    }
+  ]
+}

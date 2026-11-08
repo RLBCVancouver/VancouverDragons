@@ -1,0 +1,89 @@
+# Pages CMS configuration: the editing screens Jo sees at https://app.pagescms.org
+media:
+  input: assets/img
+  output: /assets/img
+  path: assets/img
+  extensions: [webp, png, jpg, jpeg]
+
+content:
+  - name: sponsors
+    label: Sponsors
+    type: file
+    path: data/sponsors.json
+    format: json
+    fields:
+      - name: sponsors
+        label: Sponsors (shown on the Sponsors page and the home page)
+        type: object
+        list: true
+        fields:
+          - { name: name, label: Business name, type: string, required: true }
+          - { name: website, label: Website link, type: string, required: true, description: "Full address, starting with https://" }
+          - { name: logo, label: Logo, type: image, required: true, description: "Upload a WebP or PNG logo with a transparent background" }
+          - { name: label, label: Label under the name, type: string, description: "For example: 2027 sponsor, New for 2027, Long-term sponsor" }
+          - { name: quote, label: Quote (optional), type: text, description: "Leave empty for most sponsors. If filled in, the sponsor gets a larger card with this quote." }
+          - { name: quote_by, label: Quote said by, type: string }
+          - { name: strip_class, label: "Advanced: logo style (leave blank)", type: string, description: "Only used for logos that need special sizing on the home page. Leave blank." }
+
+  - name: schedule
+    label: Schedule and fixtures
+    type: file
+    path: data/schedule.json
+    format: json
+    fields:
+      - { name: lede, label: Intro line at the top of the page, type: text }
+      - { name: show_notice, label: Show the yellow notice box, type: boolean, description: "Turn off once the fixtures are confirmed" }
+      - { name: notice_title, label: Notice heading, type: string }
+      - { name: notice_text, label: Notice text, type: text, description: "Writing @vancouver_dragons_ turns it into a link to the club Instagram" }
+      - { name: show_preview_image, label: Show the RLBC season preview picture, type: boolean, description: "Turn off once the real fixtures are listed above, because the picture says 'schedule coming soon'" }
+      - name: fixtures
+        label: Fixtures (shown in date order)
+        type: object
+        list: true
+        fields:
+          - { name: date, label: Date, type: date, required: true, options: { format: yyyy-MM-dd } }
+          - { name: opponent, label: Opponent, type: string, required: true, description: "For example: vs Valley Vipers" }
+          - { name: time, label: Kick-off time, type: string, description: "For example: 2:00 PM" }
+          - { name: venue, label: Venue, type: string, description: "For example: Brockton Oval" }
+          - { name: home_away, label: Home or away, type: select, options: { values: ["", Home, Away] } }
+          - { name: competition, label: Competition, type: string, description: "For example: RLBC Premier, RLBC 9s" }
+          - { name: result, label: Result (after the game), type: string, description: "For example: Won 24-12" }
+          - { name: notes, label: Extra notes, type: string }
+
+  - name: board
+    label: Board
+    type: file
+    path: data/board.json
+    format: json
+    fields:
+      - name: people
+        label: Board members (Club page)
+        type: object
+        list: true
+        fields:
+          - { name: name, label: Name, type: string, required: true }
+          - { name: role, label: Role, type: string, required: true }
+          - { name: email, label: Email address, type: string, description: "Leave empty to show a 'Contact the club' link instead" }
+
+  - name: life-members
+    label: Life members
+    type: file
+    path: data/life-members.json
+    format: json
+    fields:
+      - { name: members, label: Life members (Club page), type: string, list: true }
+
+  - name: awards
+    label: Club awards
+    type: file
+    path: data/awards.json
+    format: json
+    fields:
+      - name: awards
+        label: Club awards (Club page)
+        type: object
+        list: true
+        fields:
+          - { name: award, label: Award, type: string, required: true }
+          - { name: winner, label: Winner, type: string, required: true }
+          - { name: smaller_text, label: Smaller text (for long lists of names), type: boolean }
