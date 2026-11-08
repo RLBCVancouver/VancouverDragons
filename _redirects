@@ -1,0 +1,14 @@
+# Old Google Sites addresses -> new pages (keeps old links and search results working)
+/home                          /                  301
+/mens                          /play/             301
+/mens/9s                       /vegas/            301
+/mens/roster                   /club/             301
+/mens/schedule                 /schedule/         301
+/mens/life-members             /club/#history     301
+/mens/standings                /schedule/         301
+/mens/history                  /club/#history     301
+/store                         /shop/             301
+/about-us                      /club/             301
+/about-us/management           /club/#board       301
+/about-us/board-of-directors   /club/#board       301
+/about-us/opportunities        /contact/?topic=volunteer 301
